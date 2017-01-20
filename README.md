@@ -1,5 +1,5 @@
 # AppiOS
-<h1>iOS app made for Native Apps II : apps for iOS at Hogeschool Gent.<h1></br>
+<h1>iOS app made for Native Apps II : apps for iOS at Hogeschool Gent.</h1></br>
 Project by **Thomas Ledoux**.</br>
 The app is a combination of a **Todo-list and a movie rating** part.</br>
 The todos are presented in a **table view** and have a **location** added to them (*MapKit*), a **date** (picked in calendar), a **rating** and a **name**.</br>
