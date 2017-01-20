@@ -12,7 +12,6 @@ import os.log
 class MovieViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     //MARK: properties
-    
     @IBOutlet weak var movieNameTxf: UITextField!
     @IBOutlet weak var photoImgView: UIImageView!
     var movie : Movie?
@@ -34,7 +33,6 @@ class MovieViewController: UIViewController, UITextFieldDelegate, UIImagePickerC
 
         }
         updateSaveBtn()
-        // Do any additional setup after loading the view.
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -56,10 +54,6 @@ class MovieViewController: UIViewController, UITextFieldDelegate, UIImagePickerC
     
     
     @IBAction func cancel(_ sender: UIBarButtonItem) {
-        /*let isAddingMovie = presentingViewController is UINavigationController
-        if isAddingMovie {
-            dismiss(animated: true, completion: nil)
-        }*/
         if let owningNavigationCntrl = navigationController {
             owningNavigationCntrl.popViewController(animated: true)
         }
@@ -70,7 +64,6 @@ class MovieViewController: UIViewController, UITextFieldDelegate, UIImagePickerC
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -110,14 +103,4 @@ class MovieViewController: UIViewController, UITextFieldDelegate, UIImagePickerC
         
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

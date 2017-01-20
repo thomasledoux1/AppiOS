@@ -43,7 +43,7 @@ class LocationViewController: UIViewController, CLLocationManagerDelegate, MKMap
         definesPresentationContext = true
         locationSearchTable.mapView = mapView
         locationSearchTable.handleMapSearchDelegate = self
-        // Do any additional setup after loading the view.
+    
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -55,7 +55,6 @@ class LocationViewController: UIViewController, CLLocationManagerDelegate, MKMap
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     private func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
@@ -84,26 +83,10 @@ class LocationViewController: UIViewController, CLLocationManagerDelegate, MKMap
         var pinView = mapView.dequeueReusableAnnotationView(withIdentifier: reuseId) as? MKPinAnnotationView
         pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: reuseId)
         pinView?.pinTintColor = UIColor.orange
-        /*pinView?.canShowCallout = true
-        let smallSquare = CGSize(width: 30, height: 30)
-        button = UIButton(frame: CGRect(origin : CGPoint.zero, size: smallSquare))
-        button!.setBackgroundImage(UIImage(named: "save"), for: .normal)
-        button!.addTarget(self, action: #selector(LocationViewController.useLocation), for: .touchUpInside)
-        pinView?.leftCalloutAccessoryView = button*/
+        
         return pinView
     }
     
-    
-        /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
 
 extension LocationViewController : HandleMapSearch {
