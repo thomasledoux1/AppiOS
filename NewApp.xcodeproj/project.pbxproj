@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E928CE6E1E3254E80078A521 /* HelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E928CE6D1E3254E80078A521 /* HelperMethods.swift */; };
 		E9C40B651E1D3A7C007C1ED6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C40B641E1D3A7C007C1ED6 /* Movie.swift */; };
 		E9C40B671E1D40E2007C1ED6 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C40B661E1D40E2007C1ED6 /* MovieCollectionViewCell.swift */; };
 		E9C40B6F1E23B596007C1ED6 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C40B6E1E23B596007C1ED6 /* LocationViewController.swift */; };
 		E9C40B711E23B7AA007C1ED6 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C40B701E23B7AA007C1ED6 /* LocationSearchTable.swift */; };
-		E9C40B771E2F63B2007C1ED6 /* HelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C40B761E2F63B2007C1ED6 /* HelperMethods.swift */; };
 		E9C40B791E2F63D4007C1ED6 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C40B781E2F63D4007C1ED6 /* MovieViewController.swift */; };
 		E9C40B7B1E2F63DE007C1ED6 /* MovieCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C40B7A1E2F63DE007C1ED6 /* MovieCollectionViewController.swift */; };
 		E9C40B7D1E2F63ED007C1ED6 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C40B7C1E2F63ED007C1ED6 /* Task.swift */; };
@@ -38,11 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E928CE6D1E3254E80078A521 /* HelperMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperMethods.swift; sourceTree = "<group>"; };
 		E9C40B641E1D3A7C007C1ED6 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		E9C40B661E1D40E2007C1ED6 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 		E9C40B6E1E23B596007C1ED6 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		E9C40B701E23B7AA007C1ED6 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
-		E9C40B761E2F63B2007C1ED6 /* HelperMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperMethods.swift; sourceTree = "<group>"; };
 		E9C40B781E2F63D4007C1ED6 /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		E9C40B7A1E2F63DE007C1ED6 /* MovieCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewController.swift; sourceTree = "<group>"; };
 		E9C40B7C1E2F63ED007C1ED6 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
@@ -107,7 +107,6 @@
 				E9C40B7C1E2F63ED007C1ED6 /* Task.swift */,
 				E9C40B7A1E2F63DE007C1ED6 /* MovieCollectionViewController.swift */,
 				E9C40B781E2F63D4007C1ED6 /* MovieViewController.swift */,
-				E9C40B761E2F63B2007C1ED6 /* HelperMethods.swift */,
 				E9C40B641E1D3A7C007C1ED6 /* Movie.swift */,
 				E9C40B661E1D40E2007C1ED6 /* MovieCollectionViewCell.swift */,
 				E9F2E1BB1E1AAC5100B0815D /* AppDelegate.swift */,
@@ -120,6 +119,7 @@
 				E9F2E1C21E1AAC5100B0815D /* Assets.xcassets */,
 				E9F2E1C41E1AAC5100B0815D /* LaunchScreen.storyboard */,
 				E9F2E1C71E1AAC5100B0815D /* Info.plist */,
+				E928CE6D1E3254E80078A521 /* HelperMethods.swift */,
 			);
 			path = NewApp;
 			sourceTree = "<group>";
@@ -252,7 +252,7 @@
 			files = (
 				E9C40B651E1D3A7C007C1ED6 /* Movie.swift in Sources */,
 				E9F2E1E51E1BC26F00B0815D /* TaskTableViewController.swift in Sources */,
-				E9C40B771E2F63B2007C1ED6 /* HelperMethods.swift in Sources */,
+				E928CE6E1E3254E80078A521 /* HelperMethods.swift in Sources */,
 				E9F2E1E31E1BC09F00B0815D /* TaskTableViewCell.swift in Sources */,
 				E9C40B7D1E2F63ED007C1ED6 /* Task.swift in Sources */,
 				E9F2E1BE1E1AAC5100B0815D /* TaskViewController.swift in Sources */,
