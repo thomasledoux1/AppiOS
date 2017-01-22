@@ -10,6 +10,7 @@ When you add a movie or todo in the app, this is stored in the **database**, so 
 Screenshots
 </h1>
 ![alt tag](https://s30.postimg.org/h37da6eal/scherm1.png "Todo list overview")
+Todo list overview</br>
 ![alt tag](https://s30.postimg.org/40bqqwo2l/scherm2.png "Adding a new todo")
 ![alt tag](https://s30.postimg.org/voydyfb31/scherm3.png "Adding a location to the todo")
 ![alt tag](https://s30.postimg.org/67fzettct/scherm4.png "Movie overview")
