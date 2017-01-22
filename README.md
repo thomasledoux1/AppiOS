@@ -9,11 +9,14 @@ When you add a movie or todo in the app, this is stored in the **database**, so 
 <h1>
 Screenshots
 </h1>
-![alt tag](https://s30.postimg.org/h37da6eal/scherm1.png "Todo list overview")
+![alt tag](https://s30.postimg.org/h37da6eal/scherm1.png "Todo list overview")</br>
 Todo list overview</br>
-![alt tag](https://s30.postimg.org/40bqqwo2l/scherm2.png "Adding a new todo")
-![alt tag](https://s30.postimg.org/voydyfb31/scherm3.png "Adding a location to the todo")
-![alt tag](https://s30.postimg.org/67fzettct/scherm4.png "Movie overview")
-![alt tag](https://s30.postimg.org/zb47b2hgd/scherm5.png "Adding a new movie")
-
+![alt tag](https://s30.postimg.org/40bqqwo2l/scherm2.png "Adding a new todo")</br>
+Adding a new todo</br>
+![alt tag](https://s30.postimg.org/voydyfb31/scherm3.png "Adding a location to the todo")</br>
+Adding a location to the todo</br>
+![alt tag](https://s30.postimg.org/67fzettct/scherm4.png "Movie overview")</br>
+Movie overview</br>
+![alt tag](https://s30.postimg.org/zb47b2hgd/scherm5.png "Adding a new movie")</br>
+Adding a new movie
 
